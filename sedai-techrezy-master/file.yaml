@@ -1,0 +1,10 @@
+task:
+  - /add
+  - /delete
+  - /update
+  - /
+
+account:
+  - /edit
+  - /do
+  - /erase

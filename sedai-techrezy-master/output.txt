@@ -1,0 +1,11 @@
+Endpoint    Methods  Rule
+----------  -------  -----------------------
+addpage     POST     /add
+deletepage  GET      /delete/<int:todo_id>
+dopage      GET      /do/<int:todo_id>
+editpage    POST     /edit
+erasepage   GET      /erase/<int:todo_id>
+home        GET      /
+newhome     GET      /newhome
+static      GET      /static/<path:filename>
+updatepage  GET      /update/<int:todo_id>
